@@ -1,0 +1,42 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Packaging / build
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Environments
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+
+# Tooling
+.coverage
+coverage.xml
+htmlcov/
+
+# IDE / Editors
+.idea/
+.vscode/
+*.code-workspace
+*.swp
+*.swo
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Project runtime output
+logs/
+instance/
+*.db
